@@ -1,0 +1,19 @@
+.nav-list__item::after {
+  content: '';
+  background-color: transparent;
+  display: block;
+  width: 80%;
+  height: 1px;
+  border-radius: 1px;
+  scale: 0.6;
+  transition: all 0.3s;
+  margin-inline: auto;
+}
+
+.nav-list__item--active::after,
+.nav-list__item:hover::after {
+  content: '';
+  background-color: var(--white);
+  width: 100%;
+  scale: 1;
+}
