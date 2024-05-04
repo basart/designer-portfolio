@@ -1,4 +1,4 @@
-import { AboutMeAccordion } from './@components';
+import { AboutMeAccordion } from './_components';
 
 const ABOUT_ME_DATA = [
   {
